@@ -20,8 +20,8 @@ To work, change the folder name to ".expo".
 
 
 <div align="center">
-<img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/ZooDesign.gif" >
-
+<img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/ZooDesign.gif" ><br>
+<video src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.mp4"></video>
 </div>
 
 
@@ -35,7 +35,7 @@ To work, change the folder name to ".expo".
 ### bibliotecas :
 * animatable,
 * icons Expo,
-* useState
+* Navigation
 
 ## Redes
 
