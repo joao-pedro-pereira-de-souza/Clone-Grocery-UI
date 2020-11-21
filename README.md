@@ -21,11 +21,13 @@ To work, change the folder name to ".expo".
 
 <div align="center">
 <img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/ZooDesign.gif" ><br>
-
-[![video Parte 2](https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/imagePages.png)](https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.mp4)
-
 </div>
 
+### second part
+
+<div align="center">
+<img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.gif" ><br>
+</div>
 
 ##  telas
 
