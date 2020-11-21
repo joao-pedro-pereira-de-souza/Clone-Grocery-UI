@@ -21,7 +21,9 @@ To work, change the folder name to ".expo".
 
 <div align="center">
 <img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/ZooDesign.gif" ><br>
-<video src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.mp4"></video>
+
+[![video Parte 2](https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/imagePages.png)](https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.mp4)
+
 </div>
 
 
