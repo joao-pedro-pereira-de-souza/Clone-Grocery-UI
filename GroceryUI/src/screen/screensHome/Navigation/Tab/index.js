@@ -5,14 +5,14 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import { AntDesign , EvilIcons , Feather , FontAwesome5} from '@expo/vector-icons';
 
-import ScreenHome from './home/Index';
-import ScreenLocation from './location/Index';
-import ScreenSearch from './seach/Index';
-import ScreenStar from './star/Index';
-import ScreenUser from './user/Index';
+import ScreenHome from '../../home/Index';
+import ScreenLocation from '../../location/Index';
+import ScreenSearch from '../../seach/Index';
+import ScreenStar from '../../star/Index';
+import ScreenUser from '../../user/Index';
 
-import ButtonSearch from '../../component/ButtonSearch/index';
-import {colors} from '../../styles';
+import ButtonSearch from '../../../../component/ButtonSearch/index';
+import {colors} from '../../../../styles';
 
 export default function screen() {
 

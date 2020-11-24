@@ -2,7 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import NaviHome from './screensHome/Navigation';
+//import NaviHome from './screensHome/Navigation';
+import NaviHome from './screensHome/Navigation/index'
 import NaviPayment from './ScreensPayment/Navigation'
 
 export  const Stack = createStackNavigator();
