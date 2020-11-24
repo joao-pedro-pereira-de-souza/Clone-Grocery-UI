@@ -14,7 +14,7 @@ import {
 
   import{widthScreen , heightScreen , colors , ButtonToucha} from '../../styles'
   
-export default function Header() {
+export default function Header({navigation}) {
  
  return (
       
@@ -22,7 +22,7 @@ export default function Header() {
 
     <ContainerTop>
 
-          <ButtonToucha >
+          <ButtonToucha onPress={()=> navigation.openDrawer()}>
 
              <Entypo name="menu" size={widthScreen * 0.07} color={colors.GreyDark} />
 

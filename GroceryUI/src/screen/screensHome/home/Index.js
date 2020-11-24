@@ -39,7 +39,7 @@ export default function home({navigation}) {
    <Container>
 
         {/* component Top + Search */}
-          <Header/>
+          <Header navigation={navigation}/>
 
           <ContainerIlustration>
 
