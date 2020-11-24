@@ -41,7 +41,7 @@ export default function Navigation() {
 
         drawerContent={props => 
         { 
-            setProgres(props.progress)
+            setProgres(props.progress);
             return <ContentDrawer {...props}/>;
             
         }}
