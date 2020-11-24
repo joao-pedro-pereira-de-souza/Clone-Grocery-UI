@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-
+import Animated from 'react-native-reanimated';
 import { AntDesign , EvilIcons , Feather , FontAwesome5} from '@expo/vector-icons';
 
 import ScreenHome from '../../home/Index';
@@ -14,7 +12,7 @@ import ScreenUser from '../../user/Index';
 import ButtonSearch from '../../../../component/ButtonSearch/index';
 import {colors} from '../../../../styles';
 
-export default function screen() {
+export default function screen({style}) {
 
     const Tab = createBottomTabNavigator();
    
@@ -46,59 +44,80 @@ export default function screen() {
       };
 
  return (
-   
-  <Tab.Navigator screenOptions={({ route , navigation}) =>({
 
-    tabBarIcon: ({color , size , focused }) =>{
+     <Animated.View style={[
+    {
+        flex:1 , 
+        overflow:"hidden",
 
-     if(route.name == 'Search')
-     {
-         return <ButtonSearch onPress ={ () => navigation.navigate('Search')} focused={focused}/>
-     }
-
-     const {lab:Icon , name} = icons[route.name];
-
-     return <Icon name={name} color={color} size={size}/>
-
-    }
-
-     })} 
-     
-     tabBarOptions={{
-       activeTintColor: colors.yello,
-
-         style:{
-           
-           borderTopWidth:0,
-           
-           shadowColor: "#000",
-           shadowOffset: {
-             width: 80,
-             height: 10,
-           },
-           shadowOpacity: 10,
-           shadowRadius: 7.49,
-
-           elevation: 12,
-           
-         }
-
-     }} >
-
-    <Tab.Screen name='Home' component={ScreenHome} />
-    <Tab.Screen name='Location' component={ScreenLocation}/>
-    <Tab.Screen name='Search' component={ScreenSearch} options={
-
-        {
-            title:''
-        }
-    }
-    />
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 9,
+        },
+        shadowOpacity: 0.50,
+        shadowRadius: 12.35,
     
-    <Tab.Screen name='Star' component={ScreenStar}/>
-    <Tab.Screen name='User' component={ScreenUser} />
+        elevation: 19,     
+ 
+     } , style]}>
 
-</Tab.Navigator>
+          <Tab.Navigator screenOptions={({ route , navigation}) =>({
+
+          tabBarIcon: ({color , size , focused }) =>{
+
+          if(route.name == 'Search')
+          {
+              return <ButtonSearch onPress ={ () => navigation.navigate('Search')} focused={focused}/>
+          }
+
+          const {lab:Icon , name} = icons[route.name];
+
+          return <Icon name={name} color={color} size={size}/>
+
+          }
+
+          })} 
+          
+          tabBarOptions={{
+            activeTintColor: colors.yello,
+
+              style:{
+                
+                borderTopWidth:0,
+                
+                shadowColor: "#000",
+                shadowOffset: {
+                  width: 80,
+                  height: 10,
+                },
+                shadowOpacity: 10,
+                shadowRadius: 7.49,
+
+                elevation: 12,
+                
+              }
+
+          }} >
+
+          <Tab.Screen name='Home' component={ScreenHome} />
+          <Tab.Screen name='Location' component={ScreenLocation}/>
+          <Tab.Screen name='Search' component={ScreenSearch} options={
+
+              {
+                  title:''
+              }
+          }
+          />
+
+          <Tab.Screen name='Star' component={ScreenStar}/>
+          <Tab.Screen name='User' component={ScreenUser} />
+
+          </Tab.Navigator>
+      
+    </Animated.View>
+   
+ 
 
   );
 
