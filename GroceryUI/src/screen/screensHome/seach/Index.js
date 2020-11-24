@@ -16,9 +16,10 @@ export default function seach({navigation}) {
   const [selectItem , setSelectItem ] = useState(0);
 
  return (
+   
    <Container>
 
-     <Header/>
+     <Header navigation={navigation}/>
 
      <ContainerCardsMini>
 

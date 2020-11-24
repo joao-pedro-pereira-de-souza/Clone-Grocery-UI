@@ -29,7 +29,14 @@ To work, change the folder name to ".expo".
 <img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/VideoIlustration.gif" ><br>
 </div>
 
-##  telas
+### Menu Design
+
+<div align="center">
+<img src="https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/DesignMenu.gif" ><br>
+</div>
+
+
+##  telas Principais
 
 ![Telas do projeto](https://github.com/joaopedro29/Clone-Grocery-UI/blob/main/Image/imagePages.png)
 
